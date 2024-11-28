@@ -29,7 +29,7 @@
     Choose your hardware version:
 */
 
-//#define HW5
+#define HW5
 //#define HW4
 //#define HW3
 //#define HW2
@@ -44,7 +44,7 @@
     Enable this if you have the VSELECT module.
 */
 
-//#define ENABLE_VSELECT
+#define ENABLE_VSELECT
 
 /****/
 
@@ -61,7 +61,7 @@
     type later in this file.
 */
 
-//#define ENABLE_RTC
+#define ENABLE_RTC
 
 /****/
 
@@ -77,7 +77,7 @@
 /* [ Atari 5200 --------------------------------------------------- ]
 */
 
-//#define ENABLE_5200
+#define ENABLE_5200
 
 /****/
 
@@ -193,6 +193,8 @@
 
 /****/
 
+/****/
+
 /* [ Game Boy (Color) and Advance --------------------------------- ]
 */
 
@@ -253,7 +255,7 @@
 /* [ PC Engine/TurboGrafx 16 -------------------------------------- ]
 */
 
-//#define ENABLE_PCE
+#define ENABLE_PCE
 
 /****/
 
@@ -488,8 +490,8 @@ also needs ENABLE_FLASH8 and ENABLE_FLASH16 to be enabled
     Toggle clock calibration menu and whether or not to use calibration data from snes_clk.txt
 */
 
-//#define OPTION_CLOCKGEN_CALIBRATION
-//#define OPTION_CLOCKGEN_USE_CALIBRATION
+#define OPTION_CLOCKGEN_CALIBRATION
+#define OPTION_CLOCKGEN_USE_CALIBRATION
 
 /****/
 
